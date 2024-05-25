@@ -22,4 +22,12 @@ public class VehiculoCarga extends Vehiculo {
         super.mostrarInfo();
         System.out.println("Capacidad de Carga: " + capacidadCarga + " kg");
     }
+
+
+
+    // Sobreescribir el metodo realizarMantenimiento()
+    @Override
+    public void realizarMantenimiento() {
+        super.realizarMantenimiento();
+    }
 }
