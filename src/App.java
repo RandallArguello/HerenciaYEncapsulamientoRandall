@@ -8,10 +8,21 @@ public class App {
         // Mostrar la informacion de cada vehiculo
         System.out.println("Informacion del Auto: ");
         auto.mostrarInfo();
-        
+
+
+
+        auto.realizarMantenimiento();
+        auto.calcularCostoMantenimiento(0.10, 15000);
+
+
+
+
 
         System.out.println("\n Informacion del Camion: ");
         camion.mostrarInfo();
+
+        camion.realizarMantenimiento();
+       
         
     }
 }
